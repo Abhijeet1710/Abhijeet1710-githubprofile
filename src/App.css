@@ -1,0 +1,14 @@
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  transition: 0.2s ease-in;
+  border-radius: 5px;
+}
