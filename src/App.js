@@ -33,7 +33,7 @@ function App() {
             <input type="text" aria-label="First name" class="form-control" id="input"/>
         </div>
 
-        <button className="btn btn-search mt-2" onClick={ () => { getInfo() } }> Search User</button>
+        <button className="btn btn-search mt-4" onClick={ () => { getInfo() } }> Search User</button>
 
      </div>
 
