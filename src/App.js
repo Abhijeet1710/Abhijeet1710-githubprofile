@@ -30,7 +30,6 @@ function App() {
       <div className="main">
         
         <div className="input-group">
-            <span className="input-group-text">User Name</span>
             <input type="text" aria-label="First name" class="form-control" id="input"/>
         </div>
 
