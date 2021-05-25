@@ -27,15 +27,19 @@ function App() {
   }else {
     return (
 
-      <div className="main">
-        
-        <div className="input-group">
-            <input type="text" aria-label="First name" class="form-control" id="input"/>
-        </div>
+    <div className="face">
 
-        <button className="btn btn-search mt-4" onClick={ () => { getInfo() } }> Search User by Github UserName</button>
+          <div className="main">
+            <div className="input-group">
+                <input type="text" aria-label="First name" className="form-control" id="input" />
+            </div>
+            <button className="btn btn-search mt-4" onClick={ () => getInfo() }> Search User by Github UserName</button>
+         </div>
 
-     </div>
+         <p className="footer">abhijeetkhamkar30@gmail.com</p>
+
+    </div>
+
 
   );
   }

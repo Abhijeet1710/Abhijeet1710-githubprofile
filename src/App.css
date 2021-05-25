@@ -12,3 +12,15 @@
   transition: 0.2s ease-in;
   border-radius: 5px;
 }
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+ 	background-color: #343a40;
+	text-align: center;
+	color: white;
+	margin: 0;	
+}
