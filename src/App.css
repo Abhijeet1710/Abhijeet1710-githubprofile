@@ -1,5 +1,6 @@
 
 .main {
+  width: 20%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -23,4 +24,10 @@
 	text-align: center;
 	color: white;
 	margin: 0;	
+}
+
+@media screen and (max-width: 420px) {
+  .main {
+  	width: 80%;
+  }
 }
